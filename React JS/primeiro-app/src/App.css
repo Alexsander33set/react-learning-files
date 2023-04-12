@@ -51,3 +51,30 @@ span {
   font-weight: 500;
   margin-top: 1rem;
 }
+
+
+
+.loading {
+  background: transparent;
+  position: relative;
+  margin-top: 150px;
+  height: 7rem;width: 7rem;
+  display: block;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 6px solid #242424;
+  border-top-color: #51d5db;
+  border-bottom-color: #51d5db;
+  animation: infinite-rotating 1s infinite;
+}
+@keyframes infinite-rotating{
+  0%{transform: rotate(0deg);}
+  100%{transform: rotate(360deg);}
+}
+.loading:after{
+    content: '';
+    position: absolute;
+    height: 100%;width: 100%;
+    box-shadow: 0 0 0 15px white;
+
+}

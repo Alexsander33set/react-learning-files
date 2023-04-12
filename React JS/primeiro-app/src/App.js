@@ -4,7 +4,7 @@ import "./App.css";
 import Navbar from "./components/layout/navbar/navbar";
 
 function App() {
-  const [aluno, setAluno] = useState("Sujeito Corno");
+  var [aluno, setAluno] = useState("Sujeito Zé");
   function changeName(){
     setAluno("Papa")
   };
@@ -18,6 +18,7 @@ function App() {
           <button type="submit" onClick={() => changeName()}>Mudar Nome</button>
         </form>
         <span>{`Seu nome é: ${aluno}`}</span>
+        <div className="loading"></div>
       </main>
     </div>
   );

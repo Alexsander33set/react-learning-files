@@ -8,13 +8,14 @@ function Navbar() {
         <div className="centerContent">Mid Content</div>
         <ul className="rightContent">
           <li>
-            <a className="App-link">Link1</a>
+            <a className="App-link" href="#">Link1</a>
           </li>
           <li>
-            <a className="App-link">Link2</a>
+            <a className="App-link" href="#">Link2</a>
           </li>
           <li>
-            <a className="App-link">Link3</a>
+            <a className="App-link"  href="#">Link3</a>
+          
           </li>
         </ul>
       </div>
