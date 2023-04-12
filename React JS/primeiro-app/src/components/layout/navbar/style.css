@@ -1,0 +1,22 @@
+.navbar{
+  background: yellow;
+  height: 3rem;
+  font-size: 1.125rem;
+}
+
+.navbarContainer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+  padding: 0 2rem;
+}
+ul{font-weight: 500;}
+li{
+  display: inline-block;
+  margin-left: 12px;
+  border: none;
+  border-bottom: 2px solid cadetblue;
+  border-radius: 2px;
+}
